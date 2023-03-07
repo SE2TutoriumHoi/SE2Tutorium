@@ -1,5 +1,8 @@
-package com.example.se2tutoriumdummy;
+package com.example.se2tutorium;
 
+import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -7,4 +10,4 @@ package com.example.se2tutoriumdummy;
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 public class ExampleUnitTest {
-    }
+}

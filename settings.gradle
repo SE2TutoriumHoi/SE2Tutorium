@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "SE2TutoriumDummy"
+rootProject.name = "SE2Tutorium"
 include ':app'

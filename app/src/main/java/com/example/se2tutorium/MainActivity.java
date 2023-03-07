@@ -1,4 +1,4 @@
-package com.example.se2tutoriumdummy;
+package com.example.se2tutorium;
 
 import androidx.appcompat.app.AppCompatActivity;
 
