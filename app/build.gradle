@@ -26,8 +26,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     ////////// 4. add testOptions //////////
     testOptions {        
@@ -61,7 +61,7 @@ task jacocoTestReport(type: JacocoReport, dependsOn: 'testDebugUnitTest') {
 sonarqube {      
     properties {
     	property "sonar.projectKey", "SE2TutoriumHoi_SE2Tutorium"
-   	property "sonar.organization", "se2tutoriumhoi"
+   	    property "sonar.organization", "se2tutoriumhoi"
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.java.coveragePlugin", "jacoco"
         
