@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'jacoco'  
-    id 'org.sonarqube' version '3.3' 
+    id "org.sonarqube" version "3.5.0.2730"
 }
 
 android {
@@ -57,9 +57,9 @@ task jacocoTestReport(type: JacocoReport, dependsOn: 'testDebugUnitTest') {
 
 sonarqube {      
     properties {
-        property "sonar.projectKey", "SE2Tutorium"
-        property "sonar.organization", "SE2TutoriumHoi"
-        property "sonar.host.url", "https://sonarcloud.io"
+        property "sonar.projectKey", "SE2TutoriumHoi_SE2Tutorium"
+    	property "sonar.organization", "se2tutoriumhoi"
+    	property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.java.coveragePlugin", "jacoco"
         
         ////////// 5. property same as xml.destination of jacocoTestReport //////////

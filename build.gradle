@@ -2,8 +2,16 @@
 plugins {
     id 'com.android.application' version '7.2.0' apply false
     id 'com.android.library' version '7.2.0' apply false
+    id "org.sonarqube" version "3.5.0.2730"
 }
 
+sonarqube {
+  properties {
+    property "sonar.projectKey", "SE2TutoriumHoi_SE2Tutorium"
+    property "sonar.organization", "se2tutoriumhoi"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
+}
 
 task clean(type: Delete) {
     delete rootProject.buildDir
