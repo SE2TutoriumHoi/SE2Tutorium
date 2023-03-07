@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.se2tutoriumdummy'
+    namespace 'com.example.se2tutorium'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.se2tutoriumdummy"
+        applicationId "com.example.se2tutorium"
         minSdk 29
         targetSdk 33
         versionCode 1
