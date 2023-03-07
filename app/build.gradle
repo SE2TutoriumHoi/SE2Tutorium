@@ -1,12 +1,8 @@
+
 plugins {
     id 'com.android.application'
-    
-    ////////// 1. simple jacoco plugin //////////
-    id 'jacoco'  
-    
-    ////////// 2. move sonarqube plugin into app/build.gradle //////////
-    id 'org.sonarqube' version '3.3'   
-    
+    id 'jacoco'
+    id 'org.sonarqube' version '3.5.0.2730'
 }
 
 android {
